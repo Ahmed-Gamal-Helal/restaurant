@@ -1,0 +1,64 @@
+.upper-bar {
+    background-color: $baseColor;
+    .container {
+        .row {
+            padding: 5px;
+            span {
+                color: $gray;
+            }
+            .col-sm {
+                a.email {
+                        color: $white;
+                    }
+                a.get-quote {
+                    border: 1px solid $secondaryColor;
+                    padding: 2px 6px
+                }
+                a {
+                    font-size: 12px;
+                    .fa-phone, .fa-envelope {
+                        color: $white;
+                        padding-right: 5px;
+                    }
+                }
+            .text-right {
+                padding-top: 5px;
+            }    
+            }
+        }
+    }
+}
+
+nav {
+    .container {
+        .navbar-brand {
+            font-size: 30px;
+            span:first-child {
+                color: $baseColor
+            }
+            span:last-child {
+                color: $secondaryColor;
+                font-weight: lighter;
+                font-size: 24px
+            }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    font-size: 12px;
+                    color: $baseColor;
+                    font-weight: 300;
+                    padding: 5px;
+                    text-transform: uppercase;
+                    a {
+                        letter-spacing: -.5px;
+                    }
+                    .active {
+                        color: $secondaryColor;
+                        font-weight: bold
+                    }
+                }
+            }
+        }
+    }
+}

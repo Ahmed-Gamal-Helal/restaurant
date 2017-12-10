@@ -1,0 +1,27 @@
+.col-lg-5 {
+    .container-fluid {
+        .row {
+            .suppliers, .clients, .stores, .money, .safe, .reports {
+            }
+            .col-sm-3 {
+                margin: 1em;
+            }
+            a {
+                text-decoration: none;
+                color: $secColor;
+                transition: all .5s ease-in-out;
+                border: 1px solid $gray;
+                padding: 1.5rem 0;
+                h5 {
+                    font: bold 1rem $baseFont;
+                }
+                &:hover {
+                    background-color: $baseColor;
+                    color: $white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+

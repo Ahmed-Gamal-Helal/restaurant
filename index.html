@@ -1,93 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  dir="rtl">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Module Bs-4</title>
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-      <!-- START UPPER BAR -->
-        <div class="upper-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <a href="#"><i class="fa fa-phone"></i><span>+201020250657</span></a>
-                        <a href="#" class="email"><i class="fa fa-envelope"></i>ahmdtawfiek@gmail.com</a>
-                    </div>
-                    <div class="col-sm text-right">
-                        <a href="#"><span>Let's Work Together !</span></a>
-                        <a href="#" class="get-quote"><span>Get a Quote</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-      <!-- END UPPER BAR -->
-
-      <!-- START NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <span><strong>Jemy</strong></span><span>Corp</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
+        <!-- START NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand ml-auto" href="#">
+                المستودع الإلكترونى
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <span><a class="nav-link" href="#"><i class="fa fa-bell fa-md"></i>
+                    </a></span>
                     
-                    </ul>
-                </div>
-            </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-user fa-md"></i></a>
+                </li>
+            </ul>
         </nav>
       <!-- END NAVBAR -->
 
-      <!-- START CAROUSEL -->
-        <div class="slider">
-            <div id="main-item" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <h1>We're an Independent <br>Design and <span>Development</span> <br>Agency.</h1>
-                    <div class="overlay"></div>
-                    <div class="carousel-item carousel-one active">
+      <!-- Control Pannel -->
+        <div class="control-pannel container-fluid">
+            <h2>لوحة التحكم</h2>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-lg-1 x">
+                <aside class="text-right"> 
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                    <div><a href="#"><span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span></a></div>
+                </aside>
+            </div>
+            
+            <div class="col-lg-5 main-col">
+                <div class="container-fluid text-center">
+                    <div class="row">
+                        <a href="#" class="col-sm-3 suppliers">
+                            <span><i class="fa fa-archive fa-2x" aria-hidden="true"></i></span>
+                            <h5 id="x">الموردين</h5>
+                        </a>
+                        <a href="#" class="col-sm-3 clients">
+                            <span><i class="fa fa-address-book fa-2x" aria-hidden="true"></i></span>
+                            <h5>العملاء</h5>
+                        </a>
+                        <a href="#" class="col-sm-3 stores">
+                            <span><i class="fa fa-institution fa-2x" aria-hidden="true"></i></span>
+                            <h5>المستودع</h5>
+                        </a>
                     </div>
-                    <div class="carousel-item carousel-two">
+                    <div class="row">
+                        <a href="#" class="col-sm-3 money">
+                            <span><i class="fa fa-money fa-2x" aria-hidden="true"></i></span>
+                            <h5>المصروفات</h5>
+                        </a>
+                        <a href="#" class="col-sm-3 safe">
+                            <span><i class="fa fa-inbox fa-2x" aria-hidden="true"></i></span>
+                            <h5>الخزنه</h5>
+                        </a>
+                        <a href="#" class="col-sm-3 reports">
+                            <span><i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i></span>
+                            <h5>التقارير</h5>
+                        </a>
                     </div>
-                    <div class="carousel-item carousel-three">
+                    <div class="row">
+                        <a href="#" class="col-sm-3 users">
+                            <span><i class="fa fa-users fa-2x" aria-hidden="true"></i></span>
+                            <h5>المستخدمين</h5>
+                        </a>
+                        <a href="#" class="col-sm-3 post">
+                            <span><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></span>
+                            <h5>البريد</h5>
+                        </a>
+                        <a href="#" class="col-sm-3 nots">
+                            <span><i class="fa fa-bell fa-2x" aria-hidden="true"></i></span>
+                            <h5>التنبيهات</h5>
+                        </a>
                     </div>
                 </div>
-                <ol class="carousel-indicators">
-                    <li data-target="#main-item" data-slide-to="0" class="active"></li>
-                    <li data-target="#main-item" data-slide-to="1"></li>
-                    <li data-target="#main-item" data-slide-to="2"></li>
-                </ol>
+            </div>
+            <!-- table -->
+             
+        
+            <div class="col-lg-3">
+                <div class="container-fluid text-right">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-header">
+                                <span><i class="fa fa-bar-chart fa-lg"></i></span>
+                                احصائيات عامه / شهرية
+                            </div>
+                            <div class="card-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>عدد الموردين : <span>2</span></td>
+                                        <td>عدد العملاء : <span>1</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>عدد الاصناف : <span>3</span></td>
+                                        <td>مصاريف الشهر : <span>0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>اجمالى المشتريات : <span>0</span></td>
+                                        <td>اجمالى المبيعات : <span>0</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-      <!-- END CAROUSEL -->
-
-
-
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/popper.min.js"></script> 
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.dataTables.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

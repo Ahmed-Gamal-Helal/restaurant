@@ -1,0 +1,40 @@
+.col-lg-3 {
+    margin-top: 1em;
+    .container-fluid {
+        .row {
+            .card {
+                .card-header {
+                    background-color: $gray;
+                    font: bold .75rem $baseFont;
+                    border: none;
+                    padding: .5em .4em .5em 2.8em;
+                    span {
+                        i {
+                            padding-left: .5rem;
+                            padding-right: .5rem;
+                            vertical-align: 0%!important
+                        }
+                    }
+                }
+                .card-body {
+                    padding: 0;
+                    .table {
+                        margin-bottom: 0;
+                        tr {
+                            td:first-of-type {
+                                border-left: 1px solid $gray;
+                            }
+                            td {
+                                font: bold .65rem $baseFont;
+                                padding: 0.5em .4em .5em 2.8em;
+                                span {
+                                    color: $baseColor;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

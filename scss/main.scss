@@ -1,6 +1,10 @@
 *, img {
     max-width: 100%;
 }
+.sample {
+    margin-right: 5.5%;
+    margin-top: 1%;
+}
 
 @import 'variables.scss';
 @import 'upper-header.scss';
@@ -9,3 +13,4 @@
 @import 'store.scss';
 @import 'stastics.scss';
 @import 'tables.scss';
+@import 'left-table.scss';

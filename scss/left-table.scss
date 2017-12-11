@@ -1,0 +1,36 @@
+.left-table {
+    .body {
+        table {
+            thead {
+                tr {
+                    width: 100%;
+                    background-color: $gray;
+                    th {
+                        padding: .5rem;
+                        font: bold 1rem $baseFont;
+                        span {
+                            i {
+                                padding-left: 3%;
+                            }
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    width: 100%;
+                    background-color: $white;
+                    td {
+                        padding: .5rem;
+                        font: bold .8rem $baseFont;
+                        span {
+                            i {
+                                padding-left: 3%
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

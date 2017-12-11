@@ -15,4 +15,5 @@ $(function(){
     });
 
     $('#dataTable').DataTable();
+    $('tr:odd').css('background-color', '#EEE');
 });

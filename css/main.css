@@ -2,6 +2,11 @@
   max-width: 100%;
 }
 
+.sample {
+  margin-right: 5.5%;
+  margin-top: 1%;
+}
+
 /*
 Author : Jemy
 */
@@ -169,4 +174,32 @@ table.dataTable thead td {
 table.dataTable tbody th, table.dataTable tbody td {
   font: bold 0.75rem "Cairo", sans-serif;
   padding: .5rem 0;
+}
+
+.left-table .body table thead tr {
+  width: 100%;
+  background-color: #EEE;
+}
+
+.left-table .body table thead tr th {
+  padding: .5rem;
+  font: bold 1rem "Cairo", sans-serif;
+}
+
+.left-table .body table thead tr th span i {
+  padding-left: 3%;
+}
+
+.left-table .body table tbody tr {
+  width: 100%;
+  background-color: #FFF;
+}
+
+.left-table .body table tbody tr td {
+  padding: .5rem;
+  font: bold 0.8rem "Cairo", sans-serif;
+}
+
+.left-table .body table tbody tr td span i {
+  padding-left: 3%;
 }

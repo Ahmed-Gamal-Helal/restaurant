@@ -21,6 +21,7 @@
                     .table {
                         margin-bottom: 0;
                         tr {
+                            border: none;
                             td:first-of-type {
                                 border-left: 1px solid $gray;
                             }

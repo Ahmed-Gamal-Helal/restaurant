@@ -1,3 +1,13 @@
+.sell-button {
+    button {
+        background-color: $baseColor;
+        font: bold 1rem $baseFont;
+        cursor: pointer;
+        color: $white;
+        margin: 2%
+    }
+}
+
 table.datatable thead .sorting_asc {
     border: 1px solid rgba(180, 180, 180, .4);
 }

@@ -1,28 +1,32 @@
 /*
 Author : Jemy
 */
-.navbar {
+.navbar-expand-lg {
     background-color: $baseColor;
-    a.navbar-brand {
-        color: $white;
-        font: bold 1rem $baseFont; 
-    }
-    ul {
-        a {
-            i {
-                color: $white;
-            }
-            i.fa-bell {
-                padding-left: 12px;
-                span {
-                    position: absolute;
-                    top: -6px;
-                    right: 6px;
-                    height: 4px;
-                    width: 4px
+    padding: .25rem;
+    .container {
+        padding-right: 0;
+        a.navbar-brand {
+            color: $white;
+            font: bold 1rem $baseFont; 
+        
+        }
+        ul {
+            a {
+                i {
+                    color: $white;
+                }
+                i.fa-bell {
+                    padding-left: 12px;
+                    span {
+                        position: absolute;
+                        top: -6px;
+                        right: 6px;
+                        height: 4px;
+                        width: 4px
+                    }
                 }
             }
         }
     }
-
 }

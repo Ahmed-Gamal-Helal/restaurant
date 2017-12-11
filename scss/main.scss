@@ -1,12 +1,7 @@
 *, img {
     max-width: 100%;
 }
-table.datatable thead .sorting_asc {
-    border: 1px solid rgba(180, 180, 180, .4);
-}
-table.dataTable thead th, table.dataTable thead td {
-    padding: 0;
-}
+
 @import 'variables.scss';
 @import 'upper-header.scss';
 @import 'control.scss';

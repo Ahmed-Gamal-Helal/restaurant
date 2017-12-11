@@ -2,35 +2,32 @@
   max-width: 100%;
 }
 
-table.datatable thead .sorting_asc {
-  border: 1px solid rgba(180, 180, 180, 0.4);
-}
-
-table.dataTable thead th, table.dataTable thead td {
-  padding: 0;
-}
-
 /*
 Author : Jemy
 */
-.navbar {
+.navbar-expand-lg {
   background-color: #815a0b;
+  padding: .25rem;
 }
 
-.navbar a.navbar-brand {
+.navbar-expand-lg .container {
+  padding-right: 0;
+}
+
+.navbar-expand-lg .container a.navbar-brand {
   color: #FFF;
   font: bold 1rem "Cairo", sans-serif;
 }
 
-.navbar ul a i {
+.navbar-expand-lg .container ul a i {
   color: #FFF;
 }
 
-.navbar ul a i.fa-bell {
+.navbar-expand-lg .container ul a i.fa-bell {
   padding-left: 12px;
 }
 
-.navbar ul a i.fa-bell span {
+.navbar-expand-lg .container ul a i.fa-bell span {
   position: absolute;
   top: -6px;
   right: 6px;
@@ -49,11 +46,48 @@ hr {
   margin-bottom: 0;
 }
 
-.col-lg-5 .container-fluid .row .col-sm-3 {
-  margin: 1em;
+section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #FFF;
 }
 
-.col-lg-5 .container-fluid .row a {
+section aside div {
+  border-bottom: 1px solid #EEE;
+  transition: all .5s ease-in-out;
+  border-left: 1px solid #EEE;
+}
+
+section aside div:hover {
+  background-color: #815a0b;
+  cursor: pointer;
+}
+
+section aside div a {
+  width: 100%;
+}
+
+section aside div a span i {
+  padding: 1rem;
+  color: #2e3a48;
+}
+
+section aside div a span i:hover {
+  color: #FFF;
+}
+
+section aside div:first-child {
+  border-left: none;
+  background: #613b00;
+}
+
+.col-lg-6 .container-fluid .row .col-sm-3 {
+  margin: 1rem;
+}
+
+.col-lg-6 .container-fluid .row a {
   text-decoration: none;
   color: #2e3a48;
   transition: all .5s ease-in-out;
@@ -61,11 +95,11 @@ hr {
   padding: 1.5rem 0;
 }
 
-.col-lg-5 .container-fluid .row a h5 {
+.col-lg-6 .container-fluid .row a h5 {
   font: bold 1rem "Cairo", sans-serif;
 }
 
-.col-lg-5 .container-fluid .row a:hover {
+.col-lg-6 .container-fluid .row a:hover {
   background-color: #815a0b;
   color: #FFF;
   cursor: pointer;
@@ -96,6 +130,10 @@ hr {
   margin-bottom: 0;
 }
 
+.col-lg-3 .container-fluid .row .card .card-body .table tr {
+  border: none;
+}
+
 .col-lg-3 .container-fluid .row .card .card-body .table tr td:first-of-type {
   border-left: 1px solid #EEE;
 }
@@ -107,6 +145,14 @@ hr {
 
 .col-lg-3 .container-fluid .row .card .card-body .table tr td span {
   color: #815a0b;
+}
+
+.sell-button button {
+  background-color: #815a0b;
+  font: bold 1rem "Cairo", sans-serif;
+  cursor: pointer;
+  color: #FFF;
+  margin: 2%;
 }
 
 table.datatable thead .sorting_asc {

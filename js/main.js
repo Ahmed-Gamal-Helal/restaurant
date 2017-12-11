@@ -15,5 +15,6 @@ $(function(){
     });
 
     $('#dataTable').DataTable();
-    $('tr:odd').css('background-color', '#EEE');
+    $('tr:even').css('background-color', '#EEE');
+    $('tr:odd').css('background-color', '#FFF');
 });

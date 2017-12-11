@@ -1,0 +1,15 @@
+.container {
+    form {
+        margin: 5%;
+        .row {
+            label {
+                font: bold .75rem $baseFont;
+            }
+            div {
+                .form-control {
+                    font: bold .75rem $baseFont;
+                }
+            }
+        }
+    }
+}

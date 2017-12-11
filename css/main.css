@@ -178,7 +178,6 @@ table.dataTable tbody th, table.dataTable tbody td {
 
 .left-table .body table thead tr {
   width: 100%;
-  background-color: #EEE;
 }
 
 .left-table .body table thead tr th {
@@ -192,7 +191,6 @@ table.dataTable tbody th, table.dataTable tbody td {
 
 .left-table .body table tbody tr {
   width: 100%;
-  background-color: #FFF;
 }
 
 .left-table .body table tbody tr td {
@@ -200,6 +198,23 @@ table.dataTable tbody th, table.dataTable tbody td {
   font: bold 0.8rem "Cairo", sans-serif;
 }
 
-.left-table .body table tbody tr td span i {
+.left-table .body table tbody tr td a {
+  color: #2e3a48;
+  text-decoration: none;
+}
+
+.left-table .body table tbody tr td a span i {
   padding-left: 3%;
+}
+
+.container form {
+  margin: 5%;
+}
+
+.container form .row label {
+  font: bold 0.75rem "Cairo", sans-serif;
+}
+
+.container form .row div .form-control {
+  font: bold 0.75rem "Cairo", sans-serif;
 }

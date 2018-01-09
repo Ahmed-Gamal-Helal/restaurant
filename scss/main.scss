@@ -1,17 +1,58 @@
+/***** Start Variables********/
+@import 'variables.scss';
+/***** End Variables********/
+
+/***** Start upper-header ********/
+@import 'upper-header.scss';
+/***** End upper-header********/
+
+/***** Start control********/
+@import 'control.scss';
+/***** End control********/
+
+/***** Start aside ********/
+@import 'aside.scss';
+/***** End aside********/
+
+/***** Start store ********/
+@import 'store.scss';
+/***** End store ********/
+
+/***** Start stastics********/
+@import 'stastics.scss';
+/***** End stastics********/
+
+/***** Start tables ********/
+@import 'tables.scss';
+/***** End tables ********/
+
+/***** Start left-table ********/
+@import 'left-table.scss';
+/***** End left-table ********/
+
+/***** Start form********/
+@import 'form.scss';
+/***** End form********/
+
+/****** Global Touches ********/
 *, img {
     max-width: 100%;
 }
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
 .sample {
-    margin-right: 5.5%;
+    margin-right: 4.5%;
     margin-top: 1%;
 }
-
-@import 'variables.scss';
-@import 'upper-header.scss';
-@import 'control.scss';
-@import 'aside.scss';
-@import 'store.scss';
-@import 'stastics.scss';
-@import 'tables.scss';
-@import 'left-table.scss';
-@import 'form.scss';
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -2,7 +2,7 @@ $(function(){
     'use strict';
     $('.users').click(function(event) {
         event.preventDefault();
-        var ahmed = document.querySelectorAll('.main-col .col-sm-3');
+        var ahmed = document.querySelectorAll('.main-col .col-lg-3');
         
         for(var i = 3, ii = ahmed.length ; i < ii; i++) {
             $(ahmed[i]).css('display', 'none');
